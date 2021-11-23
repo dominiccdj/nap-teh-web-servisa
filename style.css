@@ -6,7 +6,11 @@ html {
 }
 
 main {
-    padding-bottom: 20px;
+    padding-bottom: 35px;
+}
+
+h1, h2 {
+    padding: 10px;
 }
 
 h2 {
@@ -94,4 +98,21 @@ div.article-preview {
 
 .article-date {
     color: rgb(164, 164, 164);
+}
+
+/* Individual news articles */
+.individual-article figure {
+    float: left;
+    width: 20%;
+    display: block;
+}
+
+.individual-article p {
+    display: block;
+    clear: both;
+}
+
+/* Contact form */
+.contact {
+    padding: 10px;
 }
