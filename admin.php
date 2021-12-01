@@ -1,5 +1,5 @@
 <style>
-    /* Admin table */
+    /* Iz nekog razloga, ne zeli mi ovdje povuci style.css */
     .admin-table {
         border: solid 1px #AAA;
         border-collapse: collapse;
@@ -24,6 +24,8 @@
     }
 </style>
 <?php
+
+echo '<p><a href="index.php?menu=9">News admin page</a></p>';
 
 if ($_SESSION['user']['role'] == 'ADMIN') {
 
